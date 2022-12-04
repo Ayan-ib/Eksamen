@@ -1,0 +1,448 @@
+/* Css for sidene med samme tema*/
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.skip_to_content {
+  position: absolute;
+  top: -400px;
+}
+
+.skip_to_content:focus {
+  position: absolute;
+  top: 0;
+}
+
+p {
+  text-align: center;
+  font-size: x-large;
+
+}
+
+.button {
+  font-size: xx-large;
+}
+
+header {
+  max-width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #5F121A;
+  color: white;
+}
+
+#forside {
+  background-image: url("img/Header_bilde1.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 60px;
+  background-color: #5F121A;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5F121A;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  font-size: large;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li a:hover {
+  background-color: #111111;
+}
+
+li a.active {
+  background-color: #4e1111;
+  color: white;
+}
+
+/*Css for welcome page*/
+
+
+
+#main_content_acc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#main_content_wel {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+#tekst {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-top: 1%;
+}
+
+#bilder {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  margin-top: 5%;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 2%;
+
+}
+
+/*Css for booking skjema*/
+#content {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /*max-width: 100%;*/
+}
+
+
+#submitknapp {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+
+input[type=text],
+select,
+[type=email],
+[type=tel] {
+  padding: 10px;
+  border: 1px solid #8c123769;
+  border-radius: 50px;
+  box-sizing: border-box;
+  resize: both;
+  margin-top: 0%;
+
+}
+
+input[type=submit] {
+  background-color: #4e1111;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: large;
+
+}
+
+footer {
+  bottom: 0;
+  display: flex;
+  background-color: #8c123769;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+#footer_left {
+  width: 45%;
+  max-height: 100%;
+  font-size: large;
+}
+
+#footer_right {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 45%;
+  max-height: 100%;
+}
+
+#logo {
+  width: auto;
+  max-height: 150px;
+}
+
+/*Css for Kafe*/
+
+h2 {
+  color: black;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#content_meny {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#meny_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 45%;
+}
+
+#meny_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 45%;
+
+}
+
+#meny_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 45%;
+
+}
+
+
+
+/* Css for Teknologi og samfunn siden*/
+#tek_sam_header {
+  background-color: #111111;
+  height: 25vh;
+}
+
+#nav_tech {
+  background-color: #111111;
+}
+
+#tech_head {
+  background-color: #111111;
+}
+
+.tech a:hover {
+  background-color: white;
+  color: #111111;
+}
+
+#active_tech a.active {
+  background-color: white;
+  color: black;
+}
+
+
+#tech_head {
+  background-image: url("img/numbers.gif");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+#tekst_head {
+  background: none;
+  margin-top: 2%;
+  font-family: "Audiowide", sans-serif;
+}
+
+.tech_overskrift {
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5%;
+}
+
+iframe {
+  margin-left: 10%;
+}
+
+#content_tech {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+.brød_tekst {
+  margin-top: 1%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+
+}
+
+#tekst_tech {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+}
+
+#tech_bilder {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0%;
+  margin-top: 5%;
+  border-style: solid;
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+}
+
+ul.tech_list {
+  display: list-item;
+  list-style-type: disc;
+  overflow: visible;
+  margin-left: 3%;
+  background-color: white;
+}
+
+.tech_punkt {
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  margin-bottom: 30%;
+  margin-top: 10%;
+}
+
+.bildetekst {
+  font-size: medium;
+}
+
+#sidebar {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+
+  h1 {
+    font-size: 50px;
+  }
+
+  ul {
+    justify-content: center;
+  }
+
+  li a {
+    font-size: small;
+    text-align: center;
+  }
+
+  #main_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #tekst {
+    width: 90%;
+
+  }
+
+
+  #bilder {
+    width: 90%;
+
+  }
+
+  #content_meny {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  #meny_left {
+    flex-direction: row;
+    width: 90%;
+    margin-top: 2%;
+  }
+
+  #meny_center {
+    width: 90%;
+  }
+
+  #meny_right {
+    flex-direction: row;
+    width: 90%;
+  }
+
+  #form {
+    width: 100%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+  h1 {
+    font-size: 50px;
+  }
+
+  li a {
+    font-size: x-small;
+    text-align: center;
+  }
+
+  #form {
+    width: 100%;
+  }
+}
